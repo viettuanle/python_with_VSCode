@@ -5,15 +5,16 @@
 3. Create a new folder for your project, and open it in Visual Studio Code.
 4. Create a new file with a .py extension, abd write your python code in the file.
 5. Save the file, and execute the script.
-6. For practical, let create new virtual environment for your project, and install the required packages. To do this, let : Open the terminal in Visual Studio Code by pressing **_ Ctrl + ` _**
+6. For practical, let create new virtual environment for your project, and install the required packages. To do this, let : Open the terminal in Visual Studio Code by pressing ** Ctrl + ` **
    or **View > Terminal** , then run the following commands:
    ```
    python -m venv myvenv
    ./myvenv/Scripts/activate  ## activate it.
    pip install library_name_here
    ```
-7. If you use git, let do this:
-   deactivate ## after this, will come back to your project, not inside virtual environment.
+7. If you use git, let deactivate to make suare come back to the project directory (not environemnt directory):
+   `deactivate`
+   Then run the following commands:
    ```
    git init ## initialize a new git repository.
    git add . ## add all files to the staging area.
