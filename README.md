@@ -26,10 +26,14 @@
    ```
 8. Should create file name _README.md_, md stand for markdown. (Markdown is a lightweight markup language with plain text formatting syntax. It is widely used for formatting readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.) You can write in markdown format such as:
 
-```
+````
 # for heading 1,  ## for heading 2, ### for heading 3, etc.
-* for bullet point, ** for bold, _ for italic, ` for inline code,
-/`/`/` for code block, /`/`/`
+* for bullet point, ** for bold, _ for italic,
+Inline code: Wrap the code in backticks.
+`inline code`
+
+Code block: Use three backticks (```) to create a code block.
+
 Links are created with Square brackets for the text,followed by parentheses for the URL.
 [OpenAI](https://www.openai.com)
 Images are similar to links but with an exclamation mark ! at the beginning.
@@ -38,4 +42,4 @@ Blockquotes are created using the > symbol.
 > This is a blockquote.
 
 
-```
+````
